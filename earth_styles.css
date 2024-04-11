@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ccc;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+nav button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#calendar { 
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+#calendar table {
+  width: 100%;
+}
+
+#calendar th,
+#calendar td {
+  border: 1px solid #58f2e5;
+  padding: 10px;
+  text-align: center;
+}
