@@ -25,7 +25,7 @@ nextMonthBtn.addEventListener('click', function() {
     }
     displayCalendar(currentMonth, currentYear);
   });
-  });
+
 
  function displayCalendar(month, year) {
     currentMonthYear.textContent = `${getMonthName(month)} ${year}`;
