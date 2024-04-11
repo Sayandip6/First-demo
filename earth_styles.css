@@ -1,9 +1,18 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: cursive;
   margin: 0;
   padding: 0;
   background-color: #000000;
-  color: #ccc;
+  color: #4b90f1;
+  align-items: center;
+  text-align: center;
+  h1{
+    margin-top: 70px;
+    margin-bottom: 50px ;
+    font-family: Brush Script MT , cursive;
+    color: #58f2e5;
+    font-size: 50px;
+  }
 }
 
 header {
@@ -16,15 +25,19 @@ header {
 
 nav button {
   background-color: #007bff;
-  color: #fff;
-  border: none;
+  color: #cdd43f;
+  border: solid 2px #41ede7;
   padding: 10px 20px;
   cursor: pointer;
+  font-family: cursive ;
+  
 }
 #calendar { 
   width: 80%;
   max-width: 800px;
   margin-bottom: 20px;
+  margin-left: 370px;
+  margin-top: 50px;
 }
 
 #calendar table {
